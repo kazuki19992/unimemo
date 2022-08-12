@@ -1,3 +1,17 @@
+# unimemo
+
+`unimemo`(ユニメモ)は、大学生のためのカレンダー、todo、時間割管理アプリケーションです。
+
+以下のプラットフォームで展開したい……
+
+- Web (このリポジトリ)
+- mobile (PWA, Native)
+- Desktop (Electron)
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
