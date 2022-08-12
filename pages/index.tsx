@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import TopCard from "../components/molecules/cards/TopCard";
+import RightTab from "../components/organisms/top/RightTab";
 
 const Home: NextPage = () => {
   return (
@@ -12,12 +13,12 @@ const Home: NextPage = () => {
       </Head>
       <div className="container mx-auto">
         <div className="lg:flex justify-between space-x-1">
-          <div className="lg:w-1/2 md:w-full xs:w-11/12">
+          <div className="lg:w-1/2 md:w-full xs:w-11/12 py-2">
             {/* カード */}
             <TopCard />
           </div>
-          <div>
-            <p>a</p>
+          <div className="flex-grow">
+            <RightTab />
           </div>
         </div>
       </div>
